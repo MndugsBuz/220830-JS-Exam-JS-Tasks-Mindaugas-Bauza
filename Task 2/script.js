@@ -5,11 +5,11 @@ pusėje esančiame "state" skaičiavimo bloke (<div id="btn__state">0</div>)
 ------------------------------------------------------------------- */
 
 
-counter = 0;
+// counter = 0;
 
-document.querySelector('#btn__element').addEventListener('click', (event) => {
-  event.preventDefault();
-  counter += 1;
-  document.getElementById('btn__state').innerText = `${counter}`;
+// document.querySelector('#btn__element').addEventListener('click', (event) => {
+//   event.preventDefault();
+//   counter += 1;
+//   document.getElementById('btn__state').innerText = `${counter}`;
 
-})
+// })
